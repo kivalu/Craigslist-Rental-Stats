@@ -1,5 +1,27 @@
 # Craigslist-Rental-Stats
 
+## Step 0: Install Ubuntu for Windows
+Open powershell as an admin and run the following command:
+```bash
+[Net.ServicePointManager]::SecurityProtocol = 
+  [Net.SecurityProtocolType]::Tls12 -bor `
+  [Net.SecurityProtocolType]::Tls11 -bor `
+  [Net.SecurityProtocolType]::Tls
+```
+Then, run:
+```bash
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing
+```
+This will take a minute to download. Once it does, run:
+```bash
+Add-AppxPackage .\Ubuntu.appx
+```
+
+You will then need to enable WSL positions as described [here] and restart your computer.
+[here]: https://ubuntu.com/tutorials/ubuntu-on-windows#3-enable-wsl
+
+When the computer is restarted, open ubuntu and follow prompts to allow it to fully install. 
+
 ## Step 1: Install Miniconda
 Open an ubuntu shell and enter the following command:
 ```bash
