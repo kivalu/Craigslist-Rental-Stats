@@ -18,7 +18,7 @@ If you see `conda x.x.x` as result (where x is a number), you know you successfu
 
 In the ubuntu shell, type:
 ```bash
-git clone https://github.com/kivalu/Craiglist-Rental-Stats.git
+git clone https://github.com/kivalu/Craigslist-Rental-Stats.git
 ```
 
 Then type:
