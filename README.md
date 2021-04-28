@@ -6,8 +6,9 @@ Open an ubuntu shell and enter the following command:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
+Say yes to all the prompts that you get. Once it is finished installing, close ubuntu, then reopen.
 
-Run 
+Now, run:
 ```bash
 conda -V
 ```
