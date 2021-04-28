@@ -66,6 +66,6 @@ You will now be working in the `rentstats` enivironment. Anytime you want to run
 
 To interact with the craigslist stat noteboo, you will need to open a jupyter notebook by entering the following command (in an ubuntu shell while in the `rentstats` environment:
 ```bash
-jupyter notebook
+jupyter notebook --no-browser
 ```
-A web browswer window should open with access to the file. If after ~20 seconds, a browswer window does not open, a url should be displayed in the ubuntu shell. Paste it into your browswer and you should be able to access your notebook.
+A url should be displayed in the ubuntu shell. Paste it into your browswer and you should be able to access your notebook.
