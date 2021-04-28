@@ -18,6 +18,7 @@ Add-AppxPackage .\Ubuntu.appx
 ```
 
 You will then need to enable WSL positions as described [here] and restart your computer.
+
 [here]: https://ubuntu.com/tutorials/ubuntu-on-windows#3-enable-wsl
 
 When the computer is restarted, open ubuntu and follow prompts to allow it to fully install. 
