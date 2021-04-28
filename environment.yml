@@ -1,0 +1,14 @@
+name: rentstats
+channels:
+  - defaults
+dependencies:
+  - jupyter=1.0.0
+  - nb_conda=2.2.1
+  - numpy=1.19.2
+  - python=3.8.5
+  - bs4=4.9.3
+  - pandas=1.2.4
+  - requests=2.25.1
+  - pip
+  - pip:
+    - fake-useragent
