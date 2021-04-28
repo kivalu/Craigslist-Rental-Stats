@@ -12,7 +12,7 @@ Run
 conda -V
 ```
 
-If you see `conda x.x.x` as result, you know you successfully installed it. 
+If you see `conda x.x.x` as result (where x is a number), you know you successfully installed it. 
 
 ## Step 2: Clone Repository
 
