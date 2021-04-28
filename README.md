@@ -14,5 +14,10 @@ If you see `conda x.x.x` as result, you know you successfully installed it.
 
 In the ubuntu shell, type:
 ```bash
-git clone
+git clone https://github.com/kivalu/Craiglist-Rental-Stats.git
+```
+
+Then type:
+```bash
+cd Craigslist-Rental-Stats
 ```
