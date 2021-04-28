@@ -17,7 +17,7 @@ This will take a minute to download. Once it does, run:
 Add-AppxPackage .\Ubuntu.appx
 ```
 
-You will then need to enable WSL positions as described [here] and restart your computer.
+You will then need to enable WSL as described [here] and restart your computer.
 
 [here]: https://ubuntu.com/tutorials/ubuntu-on-windows#3-enable-wsl
 
